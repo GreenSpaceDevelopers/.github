@@ -5,11 +5,12 @@
 
 ---
 
-## 🌿 GS (Green Space)
+<details>
+<summary>🌿 GS (Green Space)</summary>
+
+---
 
 ### 🔐 Core & Infrastructure
-
-> Основные библиотеки и инфраструктура GS.
 
 - **[GS.IdentityClient](https://github.com/GreenSpaceDevelopers/GS.IdentityClient)**  
   Identity / Auth client
@@ -18,13 +19,11 @@
 
 ### 🏢 GS.Internal
 
-> Внутренние проекты Green Space.
-
 #### 🎯 Clubs Platform
 
 | Repo | Description |
 |------|------------|
-| **[GS.Clubs.Site](https://github.com/GreenSpaceDevelopers/GS.Clubs.Site)** | Legacy site *(archive)* |
+| **[GS.Clubs.Site](https://github.com/GreenSpaceDevelopers/GS.Clubs.Site)** | Legacy *(archive)* |
 | **[GS.Clubs.Site_2.0](https://github.com/GreenSpaceDevelopers/GS.Clubs.Site_2.0)** | Current Clubs frontend |
 | **[GS.Clubs.Reports](https://github.com/GreenSpaceDevelopers/GS.Clubs.Reports)** | Reports & analytics |
 
@@ -32,17 +31,18 @@
 
 ### 👥 GS.Customers
 
-> Отдельные сайты и клиентские проекты.
-
 - **[Stroyvektor.Frontend](https://github.com/GreenSpaceDevelopers/Stroyvektor.Frontend)**
 - **[Flagman](https://github.com/GreenSpaceDevelopers/Flagman)**
 - **[MeArt](https://github.com/GreenSpaceDevelopers/MeArt)**
 
----
+</details>
 
 ---
 
-## 🧩 NEVA Ecosystem
+<details>
+<summary>🧩 NEVA Ecosystem</summary>
+
+---
 
 ### 🌐 Frontend
 
@@ -53,12 +53,10 @@
 
 ### 🏗 Core Platform
 
-> Общие компоненты платформы NEVA.
-
 | Repo | Purpose |
 |------|---------|
 | **[NEVA](https://github.com/GreenSpaceDevelopers/NEVA)** | Main Green Space Web Site |
-| **[NEVA.Common](https://github.com/GreenSpaceDevelopers/NEVA.Common)** | Shared helpers & base logic |
+| **[NEVA.Common](https://github.com/GreenSpaceDevelopers/NEVA.Common)** | Shared helpers |
 | **[NEVA.Logging](https://github.com/GreenSpaceDevelopers/NEVA.Logging)** | Logging abstractions |
 | **[NEVA.BackendClient](https://github.com/GreenSpaceDevelopers/NEVA.BackendClient)** | Backend API client |
 | **[NEVA.SSClient](https://github.com/GreenSpaceDevelopers/NEVA.SSClient)** | Support service client |
@@ -67,8 +65,6 @@
 ---
 
 ### 🔔 Notifications & Messaging
-
-> Уведомления и коммуникации.
 
 - **[NEVA.NotificationService](https://github.com/GreenSpaceDevelopers/NEVA.NotificationService)**
 - **[NEVA.NotificationWorker](https://github.com/GreenSpaceDevelopers/NEVA.NotificationWorker)**
@@ -86,37 +82,43 @@
 
 ### 📊 Statistics Platform
 
-#### Contracts & Abstractions
+<details>
+<summary>📌 Contracts & Abstractions</summary>
 
-| Repo | Role |
-|------|------|
-| **[NEVA.Stats.Abstractions](https://github.com/GreenSpaceDevelopers/NEVA.Stats.Abstractions)** | Base stat interfaces |
-| **[NEVA.Dota2.Stats.Contracts](https://github.com/GreenSpaceDevelopers/NEVA.Dota2.Stats.Contracts)** | Dota2 API contracts |
-| **[NEVA.CS2.Stats.Contracts](https://github.com/GreenSpaceDevelopers/NEVA.CS2.Stats.Contracts)** | CS2 API contracts |
+- **[NEVA.Stats.Abstractions](https://github.com/GreenSpaceDevelopers/NEVA.Stats.Abstractions)**
+- **[NEVA.Dota2.Stats.Contracts](https://github.com/GreenSpaceDevelopers/NEVA.Dota2.Stats.Contracts)**
+- **[NEVA.CS2.Stats.Contracts](https://github.com/GreenSpaceDevelopers/NEVA.CS2.Stats.Contracts)**
 
----
+</details>
 
-#### 🎮 Dota 2
+<details>
+<summary>🎮 Dota 2</summary>
 
 - **[NEVA.Dota2.Stats](https://github.com/GreenSpaceDevelopers/NEVA.Dota2.Stats)**
 - **[NEVA.Dota2.LobbyBot](https://github.com/GreenSpaceDevelopers/NEVA.Dota2.LobbyBot)**
 
----
+</details>
 
-#### 🔫 CS2
+<details>
+<summary>🔫 CS2</summary>
 
 - **[NEVA.CS2.Stats](https://github.com/GreenSpaceDevelopers/NEVA.CS2.Stats)**
 - **[NEVA.CS2.NevaAdminPlugin](https://github.com/GreenSpaceDevelopers/NEVA.CS2.NevaAdminPlugin)**
 - **[NEVA.NevaAdminPlugin](https://github.com/GreenSpaceDevelopers/NEVA.NevaAdminPlugin)**
 
----
+</details>
+
+</details>
 
 ---
 
-## 🧪 Templates / Sandbox
+<details>
+<summary>🧪 Templates / Sandbox</summary>
 
 - **[ClientServerTemplateTypeScript](https://github.com/GreenSpaceDevelopers/ClientServerTemplateTypeScript)**  
   Starter template
+
+</details>
 
 ---
 
